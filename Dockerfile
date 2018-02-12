@@ -25,10 +25,7 @@ RUN apt-get install -y \
         git \
         vim \
         awscli \
-        nodejs 
-        
-RUN apt-get install -y \        
-        npm
+        nodejs        
 
 # Gem install
 RUN  gem install --no-document bundler redcarpet kramdown maruku rdiscount RedCloth liquid pygments \
