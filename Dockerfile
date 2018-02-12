@@ -25,7 +25,9 @@ RUN apt-get install -y \
         git \
         vim \
         awscli \
-        nodejs \
+        nodejs 
+        
+RUN apt-get install -y \        
         npm
 
 # Gem install
